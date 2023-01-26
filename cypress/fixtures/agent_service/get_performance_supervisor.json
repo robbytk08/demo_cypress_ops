@@ -1,0 +1,34 @@
+{
+    "getPerformanceSupervisorWithSupervisorId" : {
+        "supervisor_id" : "fitriy478",
+        "month" : 11,
+        "year" : 2022
+    },
+    "getPerformanceSupervisorWithSupervisorIdNotFound" : {
+        "supervisor_id" : "fitriy478X",
+        "month" : 9,
+        "year" : 2022
+    },
+    "withoutSupervisorId" : {
+        "month" : 9,
+        "year" : 2022
+    },
+    "withoutMonth" : {
+        "supervisor_id" : "fitriy478",
+        "year" : 2022
+    },
+    "withoutYear" : {
+        "supervisor_id" : "fitriy478",
+        "month" : 11
+    },
+    "invalidTypeDataMonth" : {
+        "supervisor_id" : "fitriy478",
+        "month" : "Dua",
+        "year" : 2022
+    },
+    "invalidTypeDataYear" : {
+        "supervisor_id" : "fitriy478",
+        "month" : 12,
+        "year" : "Dua Ribu Dua"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "supervisor_id": {
+                "type": "string"
+              },
+              "performance": {
+                "type": "object",
+                "properties": {
+                  "ntf_target": {
+                    "type": "integer"
+                  },
+                  "ntf_achieved": {
+                    "type": "integer"
+                  },
+                  "recruitment_target": {
+                    "type": "integer"
+                  },
+                  "recruitment_achieved": {
+                    "type": "integer"
+                  },
+                  "agent_target": {
+                    "type": "integer"
+                  },
+                  "agent_achieved": {
+                    "type": "integer"
+                  },
+                  "prospect_target": {
+                    "type": "integer"
+                  },
+                  "prospect_achieved": {
+                    "type": "integer"
+                  },
+                  "contract_target": {
+                    "type": "integer"
+                  },
+                  "contract_achieved": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "ntf_target",
+                  "ntf_achieved",
+                  "recruitment_target",
+                  "recruitment_achieved",
+                  "agent_target",
+                  "agent_achieved",
+                  "prospect_target",
+                  "prospect_achieved",
+                  "contract_target",
+                  "contract_achieved"
+                ]
+              }
+            },
+            "required": [
+              "supervisor_id",
+              "performance"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "data"
+    ]
+  }

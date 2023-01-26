@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://microservices.sit.bravo.bfi.co.id",
+    "env": {
+        "api_secret": "BAEA05DA-B810-4B31-9341-50244B1A2C37"
+    }
+}

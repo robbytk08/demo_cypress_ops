@@ -1,0 +1,30 @@
+{
+    "getAgentProduct" : {
+        "agent-ids" : "19ae1c92-527f-4a12-a87f-a08e27ebdfd9",
+        "product_id" : 1,
+        "is_active" : true
+    },
+    "getAgentProductWithoutProductId" : {
+        "agent-ids" : "19ae1c92-527f-4a12-a87f-a08e27ebdfd9",
+        "is_active" : true
+    },
+    "getAgentWithoutParamIsActive" : {
+        "agent-ids" : "19ae1c92-527f-4a12-a87f-a08e27ebdfd9",
+        "product_id" : 1
+    },
+    "getAgentIdIsActiveFalse" : {
+        "agent-ids" : "4709d38a-0664-4832-a13e-7b8eb4c8afd5",
+        "product_id" : 1,
+        "is_active" : false
+    },
+    "getAgentIdAndProductIdTwo" : {
+        "agent-ids" : "36d37fb5-361a-41a1-a5b1-19f8cff2ea5e",
+        "product_id" : 2,
+        "is_active" : true
+    },
+    "getAgentProductNotFound" : {
+        "agent-ids" : "19ae1c92-527f-4a12-a87f-a08e27ebdxxx",
+        "product_id" : 1,
+        "is_active" : true
+    }
+}

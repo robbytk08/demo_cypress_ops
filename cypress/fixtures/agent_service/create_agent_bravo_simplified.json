@@ -1,0 +1,94 @@
+{
+    "agentExisting" : {
+        "supervisor_id": "adamk465",
+        "agent": {
+          "mobile_phone": "0898912819"
+        },
+        "document": {
+          "id_number": "89112000000076064",
+          "document_type": "KTP"
+        }
+    },
+    "agentMutation" : {
+        "supervisor_id": "adamk465",
+        "agent": {
+          "mobile_phone": "0898912819"
+        },
+        "document": {
+          "id_number": "9999999999888888",
+          "document_type": "KTP"
+        }
+    },
+    "agentNotFound" : {
+        "supervisor_id": "adamk465",
+        "agent": {
+          "mobile_phone": "0898912819"
+        },
+        "document": {
+          "id_number": "99999999998888889",
+          "document_type": "KTP"
+        }
+    },
+    "agentPreconditionFailed" : {
+        "supervisor_id": "adamk465",
+        "agent": {
+          "mobile_phone": "0898912819"
+        },
+        "document": {
+          "id_number": "983",
+          "document_type": "KTP"
+        }
+    },
+    "withoutSupervisorId" : {
+        "agent": {
+          "mobile_phone": "0898912819"
+        },
+        "document": {
+          "id_number": "983",
+          "document_type": "KTP"
+        }
+    },
+    "withoutMobilePhone" : {
+        "supervisor_id": "adamk465",
+        "agent": {
+        },
+        "document": {
+          "id_number": "983",
+          "document_type": "KTP"
+        }
+    },
+    "withoutIdNumber" : {
+        "supervisor_id": "adamk465",
+        "agent": {
+            "mobile_phone": "0898912819"
+        },
+        "document": {
+          "document_type": "KTP"
+        }
+    },
+    "withoutDocumentType" : {
+        "supervisor_id": "adamk465",
+        "agent": {
+            "mobile_phone": "0898912819"
+        },
+        "document": {
+            "id_number": "99999999998888889"
+        }
+    },
+    "withoutObjectAgent" : {
+        "supervisor_id": "adamk465",
+        "document": {
+            "id_number": "99999999998888889"
+        }
+    },
+    "withPhoneNumberSpecialCharacter" : {
+        "supervisor_id": "adamk465",
+        "agent": {
+          "mobile_phone": "rm -rf /*"
+        },
+        "document": {
+          "id_number": "89112000011176064",
+          "document_type": "KTP"
+        }
+    }
+}

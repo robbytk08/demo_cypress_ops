@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "are_marketing_id": {
+                "type": "string"
+              },
+              "performance": {
+                "type": "object",
+                "properties": {
+                  "ntf_target": {
+                    "type": "integer"
+                  },
+                  "ntf_achieved": {
+                    "type": "integer"
+                  },
+                  "ba_active": {
+                    "type": "integer"
+                  },
+                  "ba_prospect": {
+                    "type": "integer"
+                  },
+                  "ba_visit": {
+                    "type": "number"
+                  },
+                  "bap": {
+                    "type": "integer"
+                  },
+                  "total_contract_target": {
+                    "type": "integer"
+                  },
+                  "total_contract": {
+                    "type": "integer"
+                  },
+                  "new_register_agent": {
+                    "type": "integer"
+                  },
+                  "total_prospect": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "ntf_target",
+                  "ntf_achieved",
+                  "ba_active",
+                  "ba_prospect",
+                  "ba_visit",
+                  "bap",
+                  "total_contract_target",
+                  "total_contract",
+                  "new_register_agent",
+                  "total_prospect"
+                ]
+              }
+            },
+            "required": [
+              "are_marketing_id",
+              "performance"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "data"
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "getProfileAgent" : {
+        "are_id" : "jeffr578",
+        "month" : 8,
+        "year" : 2022
+    },
+    "getProfileAgentNotFound" : {
+        "are_id" : "jeffr578X",
+        "month" : 8,
+        "year" : 2022
+    }
+}

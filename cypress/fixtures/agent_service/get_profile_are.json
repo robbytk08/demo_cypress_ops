@@ -1,0 +1,12 @@
+{
+    "getProfileAre" : {
+        "are_id" : "ajiim578",
+        "month" : 8,
+        "year" : 2022
+    },
+    "getProfileAreIdNotFound" : {
+        "are_id" : "ajiim578X",
+        "month" : 8,
+        "year" : 2022
+    }
+}

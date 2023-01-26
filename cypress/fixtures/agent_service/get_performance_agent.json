@@ -1,0 +1,69 @@
+{
+    "getPerformanceAgentWithMarketingId" : {
+            "agent_marketing_id" : "528BA02103",
+            "month" : 10,
+            "year" : 2022,
+            "page" : 1,
+            "limit" : 20
+        },
+    "getPerformanceAgentNotFound" : {
+            "agent_marketing_id" : "528BA02103X",
+            "month" : 10,
+            "year" : 2022,
+            "page" : 1,
+            "limit" : 20
+        },
+    "getPerformanceAgentWithAreMarketingId" : {
+            "are_marketing_id" : "surya528",
+            "month" : 10,
+            "year" : 2022,
+            "page" : 1,
+            "limit" : 20
+        },
+    "withLimitOne" : {
+        "are_marketing_id" : "surya528",
+        "month" : 10,
+        "year" : 2022,
+        "page" : 1,
+        "limit" : 1
+        },
+    "withoutMonth" : {
+        "are_marketing_id" : "surya528",
+        "year" : 2022,
+        "page" : 1,
+        "limit" : 1
+        },
+    "withoutYear" : {
+        "are_marketing_id" : "surya528",
+        "month" : 10,
+        "page" : 1,
+        "limit" : 1
+        },
+    "withoutAreAndAgentMarketingId" : {
+        "year" : 2022,
+        "month" : 10,
+        "page" : 1,
+        "limit" : 1
+        },
+    "withInvalidMonth" : {
+        "are_marketing_id" : "surya528",
+        "year" : 2022,
+        "month" : 15,
+        "page" : 1,
+        "limit" : 1
+        },
+    "withInvalidTypeDataMonth" : {
+        "are_marketing_id" : "surya528",
+        "year" : 2022,
+        "month" : "Mei",
+        "page" : 1,
+        "limit" : 1
+        },
+    "withInvalidTypeDataYear" : {
+        "are_marketing_id" : "surya528",
+        "year" : "Dua Ribu Dua Dua",
+        "month" : 10,
+        "page" : 1,
+        "limit" : 1
+        }
+}

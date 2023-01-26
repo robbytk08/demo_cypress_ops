@@ -1,0 +1,441 @@
+{
+    "supervisorIdNotFound" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "name": "Qa Test DMS",
+            "rt": "02",
+            "rw": "09",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type": "KTP",
+            "id_number": "89112000000011",
+            "document_id": "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465XX"
+    },
+    "supervisorWithoutProductId" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "name": "Qa Test DMS",
+            "rt": "02",
+            "rw": "09",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type": "KTP",
+            "id_number": "89112000000011",
+            "document_id": "1"
+        },
+        "supervisor_id": "adamk465"
+    },
+    "withoutSupervisorId" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "name": "Qa Test DMS",
+            "rt": "02",
+            "rw": "09",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type": "KTP",
+            "id_number": "89112000000011",
+            "document_id": "1"
+        },
+        "product_id": "1"
+    },
+    "withoutDocumentType" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "name": "Qa Test DMS",
+            "rt": "02",
+            "rw": "09",
+            "zip_code": "15720"
+        },
+        "document": {
+            "id_number": "89112000000011",
+            "document_id": "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutIdNumber" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "name": "Qa Test DMS",
+            "rt": "02",
+            "rw": "09",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "document_id": "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutZipCode" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "name": "Qa Test DMS",
+            "rt": "02",
+            "rw": "09"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAddressRW" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "name": "Qa Test DMS",
+            "rt": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAddressRT" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "name": "Qa Test DMS",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentName" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "08621459811",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentMobilePhone" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentMaritalStatus" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "mobile_phone" : "087812712888",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentEmail" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id" : "1",
+            "mobile_phone" : "087812712888",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentBirthPlace" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-2022",
+            "city_code": "36.03",
+            "email" : "dmsqa@gmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id" : "1",
+            "mobile_phone" : "087812712888",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentAddress" : {
+        "agent": {
+            "birth_date": "01-01-2022",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email" : "dmsqa@gmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id" : "1",
+            "mobile_phone" : "087812712888",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentBirthDate" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email" : "dmsqa@gmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id" : "1",
+            "mobile_phone" : "087812712888",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentCityCode" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-1998",
+            "birth_place": "Bandung",
+            "email" : "dmsqa@gmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id" : "1",
+            "mobile_phone" : "087812712888",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentKecamatanCode" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-1998",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email" : "dmsqa@gmail.com",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id" : "1",
+            "mobile_phone" : "087812712888",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "withoutAgentKelurahanCode" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-1998",
+            "birth_place": "Bandung",
+            "city_code": "36.03",
+            "email" : "dmsqa@gmail.com",
+            "kecamatan_code": "36.03.04",
+            "marital_status_id" : "1",
+            "mobile_phone" : "087812712888",
+            "name": "QA TESTING",
+            "rt" : "07",
+            "rw": "02",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type" : "KTP",
+            "id_number" : "89112000000011",
+            "document_id" : "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    },
+    "agentExisting" : {
+        "agent": {
+            "address": "street qa test",
+            "birth_date": "01-01-1998",
+            "birth_place": "Earth",
+            "city_code": "36.03",
+            "email": "dmsqa@tmail.com",
+            "kecamatan_code": "36.03.04",
+            "kelurahan_code": "36.03.04.2003",
+            "marital_status_id": "string",
+            "mobile_phone": "086214598210",
+            "name": "Qa Test Towne",
+            "rt" : "02",
+            "rw": "09",
+            "zip_code": "15720"
+        },
+        "document": {
+            "document_type": "KTP",
+            "id_number": "891120000000210",
+            "document_id": "1"
+        },
+        "product_id": "1",
+        "supervisor_id": "adamk465"
+    }    
+}

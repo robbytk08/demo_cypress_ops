@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "message": {
+        "type": "string"
+      },
+      "required_data": {
+        "type": "object",
+        "properties": {
+          "are_marketing_id": {
+            "type": "string"
+          },
+          "month": {
+            "type": "integer"
+          },
+          "year": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "are_marketing_id",
+          "month",
+          "year"
+        ]
+      }
+    },
+    "required": [
+      "status",
+      "message",
+      "required_data"
+    ]
+  }

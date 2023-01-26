@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://microservices.uat.bravo.bfi.co.id",
+    "env": {
+        "api_secret": "369BBEA5-4DC0-4145-A065-E2B2DFCCED8B"
+    }
+}

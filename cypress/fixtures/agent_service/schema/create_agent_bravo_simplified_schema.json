@@ -1,0 +1,38 @@
+{
+    "schemaExisting" : {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "bravo_agent_id": {
+            "type": "string"
+          },
+          "agent": {
+            "type": "object",
+            "properties": {
+              "marketing_id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "product_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "marketing_id",
+              "name",
+              "product_id"
+            ]
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "bravo_agent_id",
+          "agent",
+          "status"
+        ]
+    }
+}

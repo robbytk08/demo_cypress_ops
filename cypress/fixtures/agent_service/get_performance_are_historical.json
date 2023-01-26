@@ -1,0 +1,24 @@
+{
+    "getPerformanceAreHistorical" : {
+        "average_duration" : 3,
+        "page" : 1,
+        "limit" : 20,
+        "are_id" : "surya528"
+    },
+    "getPerformanceAreHistoricalAreIdNotFound" : {
+        "average_duration" : 3,
+        "page" : 1,
+        "limit" : 20,
+        "are_id" : "surya528X"
+    },
+    "withoutAverageDuration" : {
+        "page" : 1,
+        "limit" : 20,
+        "are_id" : "surya528X"
+    },
+    "withoutAreIdAndSupervisorId" : {
+        "average_duration" : 3,
+        "page" : 1,
+        "limit" : 20
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "getAgentTargetAreUseAreId" : {
+        "month": 10,
+        "year": 2022,
+        "are_id": "meike528"
+    },
+    "getAgentTargetAreUseSpvId" : {
+        "month": 10,
+        "year": 2022,
+        "supervisor_id": "rajab528"
+    },
+    "getAgentTargetAreUseAreIdNotFound" : {
+        "month": 10,
+        "year": 2022,
+        "are_id": "meike528X"
+    },
+    "getAgentTargetAreUseSpvIdNotFound" : {
+        "month": 10,
+        "year": 2022,
+        "supervisor_id": "rajab528X"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "are_marketing_id": {
+                "type": "string"
+              },
+              "derived_target": {
+                "type": "object",
+                "properties": {
+                  "total_contract_value": {
+                    "type": "integer"
+                  },
+                  "total_contract": {
+                    "type": "integer"
+                  },
+                  "total_prospect": {
+                    "type": "integer"
+                  },
+                  "total_registered_agent": {
+                    "type": "integer"
+                  },
+                  "funding_rate": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "total_contract_value",
+                  "total_contract",
+                  "total_prospect",
+                  "total_registered_agent",
+                  "funding_rate"
+                ]
+              },
+              "main_target": {
+                "type": "object",
+                "properties": {
+                  "ntf_target": {
+                    "type": "integer"
+                  },
+                  "bap": {
+                    "type": "integer"
+                  },
+                  "success_rate": {
+                    "type": "number"
+                  },
+                  "prospect_agent": {
+                    "type": "integer"
+                  },
+                  "active_agent": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "ntf_target",
+                  "bap",
+                  "success_rate",
+                  "prospect_agent",
+                  "active_agent"
+                ]
+              },
+              "month": {
+                "type": "integer"
+              },
+              "year": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "are_marketing_id",
+              "derived_target",
+              "main_target",
+              "month",
+              "year"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "data"
+    ]
+  }

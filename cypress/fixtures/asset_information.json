@@ -1,0 +1,80 @@
+{
+    "filterByLevelOneMobil" : {
+        "level": 1,
+        "asset_type_id": "MOBIL"
+    },
+    "filterByLevelTwoMobil" : {
+        "level": 2,
+        "asset_type_id": "MOBIL",
+        "asset_parent_code" : "CHEVROLET"
+    },  
+    "filterByLevelThreeMobil" : {
+        "level": 3,
+        "asset_type_id": "MOBIL",
+        "asset_parent_code" : "CHEVROLET.AVEO"
+    },
+    "filterByLevelOneMotor" : {
+        "level": 1,
+        "asset_type_id": "MOTOR"
+    },
+    "filterByLevelTwoMotor" : {
+        "level": 2,
+        "asset_type_id": "MOTOR",
+        "asset_parent_code" : "MTRHONDA"
+    },  
+    "filterByLevelThreeMotor" : {
+        "level": 3,
+        "asset_type_id": "MOTOR",
+        "asset_parent_code" : "MTRHONDA.BEAT"
+    },
+    "filterByLevelOneMachine" : {
+        "level": 1,
+        "asset_type_id": "MACHINE"
+    },
+    "filterByLevelTwoMachine" : {
+        "level": 2,
+        "asset_type_id": "MACHINE",
+        "asset_parent_code" : "AAAAUTO"
+    },  
+    "filterByLevelThreeMachine" : {
+        "level": 3,
+        "asset_type_id": "MACHINE",
+        "asset_parent_code" : "AAAAUTO.POWERPRESSMACHINE"
+    },
+    "filterByLevelNotAvailable" : {
+        "level": 4,
+        "asset_type_id": "MOBIL"
+    },
+    "filterByAssetTypeIdNotAvailable" : {
+        "level": 2,
+        "asset_type_id": "GLASS"
+    },
+    "filterByLevelString" : {
+        "level": "DUA",
+        "asset_type_id": "MOBIL"
+    },
+    "filterPageTwo" : {
+        "level": 2,
+        "asset_type_id": "MOBIL",
+        "page" : 2
+    },
+    "filterPageTwoWithLimitPage" : {
+        "level": 2,
+        "asset_type_id": "MOBIL",
+        "page" : 2,
+        "limit" : 10
+    },
+    "filterWithLimitPageGreatenThanTwenty" : {
+        "level": 2,
+        "asset_type_id": "MOBIL",
+        "page" : 1,
+        "limit" : 30
+    },
+    "sortByCode" : {
+        "level": 2,
+        "asset_type_id": "MOBIL",
+        "page" : 1,
+        "limit" : 20,
+        "sort_by" : "code"
+    }
+}

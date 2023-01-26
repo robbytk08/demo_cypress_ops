@@ -1,0 +1,84 @@
+{
+  "bodyRequestValid" : {
+      "price": 155000001.00,
+      "area_pl_id": 18,
+      "asset_code": "TOYOTA.RAIZE.10G",
+      "manufacturing_year": 2018,
+      "new_used": "U",
+      "branch_id": 698,
+      "product_id": 2,
+      "zip_code": "20511",
+      "city_code": "12.07"
+  },
+  "priceWithValueString" : {
+      "price": "Rp155000001",
+      "area_pl_id": 18,
+      "asset_code": "TOYOTA.RAIZE.10G",
+      "manufacturing_year": 2018,
+      "new_used": "U",
+      "branch_id": 698,
+      "product_id": 2,
+      "zip_code": "20511",
+      "city_code": "12.07"
+  },
+  "manufacturingYearWithValueString" : {
+      "price": 15500000,
+      "area_pl_id": 18,
+      "asset_code": "TOYOTA.RAIZE.10G",
+      "manufacturing_year": "2018Year",
+      "new_used": "U",
+      "branch_id": 698,
+      "product_id": 2,
+      "zip_code": "20511",
+      "city_code": "12.07"
+  },
+  "updateManufactureYear" : {
+    "price": 83000000,
+    "area_pl_id": 2,
+    "asset_code": "TOYOTA.AGYA.E10AT",
+    "manufacturing_year": 2018,
+    "new_used": "U",
+    "branch_id": 698,
+    "product_id": 2,
+    "zip_code": "20511",
+    "city_code": "12.07"
+  },
+  "getVerifyUpdateManufactureYear" : {
+    "level": 2,
+    "asset_type_id": "MOBIL",
+    "asset_parent_code" : "TOYOTA",
+    "sort_by" : "code"
+  },
+  "areaPlIdWithValueString" : {
+      "price": 15500000,
+      "area_pl_id": "DUA",
+      "asset_code": "TOYOTA.RAIZE.10G",
+      "manufacturing_year": 2018,
+      "new_used": "U",
+      "branch_id": 698,
+      "product_id": 2,
+      "zip_code": "20511",
+      "city_code": "12.07"
+  },
+  "assetCodeNotFound" : {
+    "price": 155000001.00,
+    "area_pl_id": 18,
+    "asset_code": "TOYOTA.QA.10G",
+    "manufacturing_year": 2018,
+    "new_used": "U",
+    "branch_id": 698,
+    "product_id": 2,
+    "zip_code": "20511",
+    "city_code": "12.07"
+  },
+  "withOutNewUsed" : {
+    "price": 155000001.00,
+    "area_pl_id": 18,
+    "asset_code": "TOYOTA.RAIZE.10G",
+    "manufacturing_year": 2018,
+    "branch_id": 698,
+    "product_id": 2,
+    "zip_code": "20511",
+    "city_code": "12.07"
+  }
+}

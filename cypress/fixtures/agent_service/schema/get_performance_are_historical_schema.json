@@ -1,0 +1,90 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "supervisor_marketing_id": {
+                "type": "string"
+              },
+              "data": {
+                "type": "object",
+                "properties": {
+                  "month": {
+                    "type": "integer"
+                  },
+                  "year": {
+                    "type": "integer"
+                  },
+                  "average_duration": {
+                    "type": "integer"
+                  },
+                  "average": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "are_marketing_id": {
+                            "type": "string"
+                          },
+                          "ntf_value": {
+                            "type": "number"
+                          },
+                          "prospect_count": {
+                            "type": "number"
+                          },
+                          "registered_agent_count": {
+                            "type": "number"
+                          },
+                          "success_rate_ratio": {
+                            "type": "number"
+                          },
+                          "contract_count": {
+                            "type": "number"
+                          },
+                          "active_agent_count": {
+                            "type": "number"
+                          },
+                          "ba_productive_count": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "are_marketing_id",
+                          "ntf_value",
+                          "prospect_count",
+                          "registered_agent_count",
+                          "success_rate_ratio",
+                          "contract_count",
+                          "active_agent_count",
+                          "ba_productive_count"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "month",
+                  "year",
+                  "average_duration",
+                  "average"
+                ]
+              }
+            },
+            "required": [
+              "supervisor_marketing_id",
+              "data"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "data"
+    ]
+  }
