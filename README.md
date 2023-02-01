@@ -1,4 +1,4 @@
-# bravo-dms-automation
+# bravo-dms-automation for demo
  Project contains test scripts for Restful APIs in
  
     - Master Service
