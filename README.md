@@ -1,4 +1,4 @@
-# bravo-dms-automation for demo
+# explore for demo
  Project contains test scripts for Restful APIs in
  
     - Master Service
@@ -14,7 +14,7 @@
 - Visual Studio Code / IntelliJ
 
 ### 1.2 Set up
-- Clone source code at: https://github.com/bfi-finance/bravo-dms-automation
+- Clone source code at: https://github.com/robbytk08/demo_cypress_ops.git
 - Open terminal at `root` level
 - Run `npm install` to insall all libraries defined in `package.json`
 
