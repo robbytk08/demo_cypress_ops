@@ -1,8 +1,0 @@
-{
-    "getDocumentConfigNDFCar" : {
-        "product" : "NDF Car"
-    },
-    "getDocumentConfigProductNotFound" : {
-        "product" : "NDF Card"
-    }
-}

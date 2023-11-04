@@ -4,3 +4,5 @@
 /cypress/videos/*
 /reports/*
 package-lock.json
+cypress/config/
+cypress/reports/
