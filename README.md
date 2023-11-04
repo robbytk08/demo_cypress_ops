@@ -1,12 +1,7 @@
 # explore for demo
  Project contains test scripts for Restful APIs in
  
-    - Master Service
-    - Agent Service
-    - Product Service
     - Asset Pricing Service
-    - Branch Service
-    - Document Service
 
 ## 1. Project Installation
 ### 1.1 Tools
