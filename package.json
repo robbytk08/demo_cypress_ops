@@ -9,7 +9,10 @@
     "cy:run": "./node_modules/.bin/cypress run --spec ** / *. cy.js",
     "cy:dashboard": "npx cypress run --record --key f1258f44-375d-43fe-8735-6a764285464a",
     "cy:report": "npx cypress run --reporter mochawesome",
-    "docker:run": "docker run -it my-cypress-base:1.0.1"
+    "docker:run": "docker run -it my-cypress-base:1.0.1",
+    "electron:test" : "npx cypress run --spec 'cypress/e2e/UI/*.cy.js'",
+    "chrome:test" : "npx cypress run --spec 'cypress/e2e/UI/*.cy.js' --browser chrome",
+    "firefox:test" : "npx cypress run --spec 'cypress/e2e/UI/*.cy.js' --browser firefox"
   },
   "author": "",
   "license": "ISC",

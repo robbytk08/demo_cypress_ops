@@ -1,0 +1,16 @@
+{
+    "filterByPageAndLimit" : {
+        "page": 1,
+        "limit": 20
+    },
+    "filterByProvinceCode" : {
+        "page": 1,
+        "limit": 20,
+        "province_code" : "12"
+    },
+    "filterByCityCode" : {
+        "page": 1,
+        "limit": 20,
+        "city_code" : "12.01"
+    }
+}

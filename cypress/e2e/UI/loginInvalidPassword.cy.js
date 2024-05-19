@@ -8,10 +8,10 @@ describe('Login Tests', () => {
     loginPage.visit();
   });
 
-  it('should show an error with invalid username credentials', () => {
-    loginPage.fillUsername('invalid_username');
-    loginPage.fillPassword('Password123');
+  it('should show an error with invalid password credentials', () => {
+    loginPage.fillUsername('student');
+    loginPage.fillPassword('incorrectPassword');
     loginPage.submitLogin();
-    loginPage.assertLoginError('Your username is invalid!');
+    loginPage.assertLoginError('Your password is invalid!');
   });
 });
