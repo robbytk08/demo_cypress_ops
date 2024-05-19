@@ -16,6 +16,7 @@
 ### 1.1 Tools
 - NodeJS
 - Visual Studio Code / IntelliJ
+- Docker desktop
 
 ### 1.2 Set up
 - Clone source code at: https://github.com/robbytk08/demo_cypress_ops.git
@@ -37,4 +38,4 @@ Defined in `cypress.config.js`:
 - ***For running in your local machine in dashboard Cypress*** : please use command `npx cypress open`
 - ***For running in your local machine use specific test*** : please use command `npx cypress run --spec "cypress/e2e/master_service/get_province_list.cy.js"`
 - ***For running in Docker with single browser*** : please use command `docker-compose run e2e-chrome`
-- ***For running in Docker with parallel Cypress on different browser*** : please use command `docker-compose up`
+- ***For running in Docker parallel with different browser*** : please use command `docker-compose up`
