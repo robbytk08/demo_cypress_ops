@@ -1,6 +1,13 @@
 version: "3"
 services:
-  # this container will run Cypress test using built-in Electron browser
+   #container for running api testing
+  intergration-test:
+    image: "rby-cyp-on-docker:1.1.0"
+    command: "integration:test"
+    volumes:
+      - ./cypress/videos:/cypress-docker/cypress/videos
+      - ./cypress/reports:/cypress-docker/cypress/reports
+  #container will runing UI testing using Electron browser
   e2e-electron:
     image: "rby-cyp-on-docker:1.1.0"
     command: "electron:test"
@@ -8,7 +15,7 @@ services:
       - ./cypress/videos:/cypress-docker/cypress/videos
       - ./cypress/reports:/cypress-docker/cypress/reports
 
-  # this container will run Cypress test using Chrome browser
+  #container will runing UI testing using Chrome browser
   e2e-chrome:
     image: "rby-cyp-on-docker:1.1.0"
     command: "chrome:test"
