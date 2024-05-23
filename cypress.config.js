@@ -8,7 +8,7 @@ function getConfigurationFile(env) {
 }
 
 module.exports = defineConfig({
-  projectId: "2o4x3s",
+  projectId: "bgdnaj",
   reporter: 'mochawesome',
   reporterOptions: {
     showHooks: 'always',
