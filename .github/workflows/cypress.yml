@@ -25,4 +25,7 @@ jobs:
       - name: Run Cypress tests
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-        run: npx cypress run --record --parallel --group ${{ matrix.containers }}
+        #with group
+        # run: npx cypress run --record --parallel --group ${{ matrix.containers }}
+        #without group
+        run: npx cypress run --record --parallel ${{ matrix.containers }}
